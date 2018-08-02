@@ -1,0 +1,22 @@
+{
+  "name": "league-of-legends-ui",
+  "description": "League of Legends statistics",
+  "dependencies": {
+    "api-nav": "KlavisVerge/api-nav",
+    "reddit-ui": "KlavisVerge/reddit-ui",
+    "twitch-ui": "KlavisVerge/twitch-ui",
+    "@polymer/paper-button": "^3.0.0-pre.21",
+    "@polymer/paper-dialog": "^3.0.0-pre.21",
+    "@polymer/paper-dialog-scrollable": "^3.0.0-pre.21",
+    "@polymer/paper-input": "^3.0.0-pre.21",
+    "@polymer/paper-item": "^3.0.0-pre.21",
+    "@polymer/paper-radio-group": "^3.0.0-pre.21",
+    "@polymer/paper-spinner": "^3.0.0-pre.21",
+    "@polymer/paper-tabs": "^3.0.0-pre.21",
+    "@polymer/polymer": "^3.0.0",
+    "web-animations-js": "^2.3.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  },
+  "devDependencies": {},
+  "author": "Nick Phillips <imprecatorr@gmail.com>"
+}

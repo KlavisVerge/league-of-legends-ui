@@ -1,0 +1,6 @@
+{
+  "name": "league-of-legends-ui",
+  "short_name": "league-of-legends-ui",
+  "start_url": "/",
+  "display": "standalone"
+}
