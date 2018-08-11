@@ -271,59 +271,59 @@ class LeagueOfLegendsUiApp extends PolymerElement {
           <h2>Match Stats</h2>
           <p>Click on a stat for a graph</p>
           <paper-dialog-scrollable>
-            <paper-item>Victory: [[win]]</paper-item>
-            <paper-item on-tap="_showChart" data-item$="champLevel|Champion Level|Level|number">Champion Level: [[champLevel]]</paper-item>
-            <paper-item>Kills: [[kills]]</paper-item>
-            <paper-item>Deaths: [[deaths]]</paper-item>
-            <paper-item>Assists: [[assists]]</paper-item>
-            <paper-item>Gold Earned: [[goldEarned]]</paper-item>
-            <paper-item>Gold Spent: [[goldSpent]]</paper-item>
-            <paper-item>Vision Score: [[visionScore]]</paper-item>
-            <paper-item>Double Kills: [[doubleKills]]</paper-item>
-            <paper-item>Triple Kills: [[tripleKills]]</paper-item>
-            <paper-item>Quadra Kills: [[quadraKills]]</paper-item>
-            <paper-item>Penta Kills: [[pentaKills]]</paper-item>
-            <paper-item>Inhibitor Kills: [[inhibitorKills]]</paper-item>
-            <paper-item>Killing Sprees: [[killingSprees]]</paper-item>
-            <paper-item>Largest Killing Spree: [[largestKillingSpree]]</paper-item>
-            <paper-item>Largest Multi Kill: [[largestMultiKill]]</paper-item>
-            <paper-item>Total Minions Killed: [[totalMinionsKilled]]</paper-item>
-            <paper-item>Turret Kills: [[turretKills]]</paper-item>
-            <paper-item>Unreal Kills: [[unrealKills]]</paper-item>
-            <paper-item>Wards Killed: [[wardsKilled]]</paper-item>
-            <paper-item>Damage Dealt To Objectives: [[damageDealtToObjectives]]</paper-item>
-            <paper-item>Damage Dealt To Turrets: [[damageDealtToTurrets]]</paper-item>
-            <paper-item>Damage Self Mitigated: [[damageSelfMitigated]]</paper-item>
-            <paper-item>Magic Damage Dealt: [[magicDamageDealt]]</paper-item>
-            <paper-item>Magic Damage Dealt To Champions: [[magicDamageDealtToChampions]]</paper-item>
-            <paper-item>Magical Damage Taken: [[magicalDamageTaken]]</paper-item>
-            <paper-item>Physical Damage Dealt: [[physicalDamageDealt]]</paper-item>
-            <paper-item>Physical Damage Dealt To Champions: [[physicalDamageDealtToChampions]]</paper-item>
-            <paper-item>Physical Damage Taken: [[physicalDamageTaken]]</paper-item>
-            <paper-item>Total Damage Dealt: [[totalDamageDealt]]</paper-item>
-            <paper-item>Total Damage Dealt To Champions: [[totalDamageDealtToChampions]]</paper-item>
-            <paper-item>True Damage Dealt: [[trueDamageDealt]]</paper-item>
-            <paper-item>True Damage Dealt To Champions: [[trueDamageDealtToChampions]]</paper-item>
-            <paper-item>True Damage Taken: [[trueDamageTaken]]</paper-item>
-            <paper-item>Total Damage Taken: [[totalDamageTaken]]</paper-item>
-            <paper-item>Total Heal: [[totalHeal]]</paper-item>
-            <paper-item>First Blood Assist: [[firstBloodAssist]]</paper-item>
-            <paper-item>First Blood Kill: [[firstBloodKill]]</paper-item>
-            <paper-item>First Inhibitor Assist: [[firstInhibitorAssist]]</paper-item>
-            <paper-item>First Inhibitor Kill: [[firstInhibitorKill]]</paper-item>
-            <paper-item>First Tower Assist: [[firstTowerAssist]]</paper-item>
-            <paper-item>First Tower Kill: [[firstTowerKill]]</paper-item>
-            <paper-item>Largest Critical Strike: [[largestCriticalStrike]]</paper-item>
-            <paper-item>Longest Time Spent Living: [[longestTimeSpentLiving]]</paper-item>
-            <paper-item>Neutral Minions Killed: [[neutralMinionsKilled]]</paper-item>
-            <paper-item>Neutral Minions Killed Enemy Jungle: [[neutralMinionsKilledEnemyJungle]]</paper-item>
-            <paper-item>Neutral Minions Killed Team Jungle: [[neutralMinionsKilledTeamJungle]]</paper-item>
-            <paper-item>Sight Wards Bought In Game: [[sightWardsBoughtInGame]]</paper-item>
-            <paper-item>Time CC'ing Others: [[timeCCingOthers]]</paper-item>
-            <paper-item>Total Time Crowd Control Dealt: [[totalTimeCrowdControlDealt]]</paper-item>
-            <paper-item>Total Units Healed: [[totalUnitsHealed]]</paper-item>
-            <paper-item>Vision Wards Bought In Game: [[visionWardsBoughtInGame]]</paper-item>
-            <paper-item>Wards Placed: [[wardsPlaced]]</paper-item>
+            <paper-item class="custom-hover">Victory: [[win]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="champLevel|Champion Level|Level|number">Champion Level: [[champLevel]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="kills|Kills|Kills|number">Kills: [[kills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="deaths|Deaths|Deaths|number">Deaths: [[deaths]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="assists|Assists|Assists|number">Assists: [[assists]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="goldEarned|Gold Earned|Gold Earned|number">Gold Earned: [[goldEarned]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="goldSpent|Gold Spent|Gold Spent|number">Gold Spent: [[goldSpent]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="visionScore|Vision Score|Vision Score|number">Vision Score: [[visionScore]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="doubleKills|Double Kills|Double Kills|number">Double Kills: [[doubleKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="tripleKills|Triple Kills|Triple Kills|number">Triple Kills: [[tripleKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="quadraKills|Quadra Kills|Quadra Kills|number">Quadra Kills: [[quadraKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="pentaKills|Penta Kills|Penta Kills|number">Penta Kills: [[pentaKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="inhibitorKills|Inhibitor Kills|Inhibitor Kills|number">Inhibitor Kills: [[inhibitorKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="killingSprees|Killing Sprees|Killing Sprees|number">Killing Sprees: [[killingSprees]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="largestKillingSpree|Largest Killing Spree|Largest Killing Spree|number">Largest Killing Spree: [[largestKillingSpree]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="largestMultiKill|Largest Multi Kill|Largest Multi Kill|number">Largest Multi Kill: [[largestMultiKill]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalMinionsKilled|Total Minions Killed|Total Minions Killed|number">Total Minions Killed: [[totalMinionsKilled]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="turretKills|Turret Kills|Turret Kills|number">Turret Kills: [[turretKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="unrealKills|Unreal Kills|Unreal Kills|number">Unreal Kills: [[unrealKills]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="wardsKilled|Wards Killed|Wards Killed|number">Wards Killed: [[wardsKilled]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="damageDealtToObjectives|Damage Dealt To Objectives|Damage Dealt To Objectives|number">Damage Dealt To Objectives: [[damageDealtToObjectives]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="damageDealtToTurrets|Damage Dealt To Turrets|Damage Dealt To Turrets|number">Damage Dealt To Turrets: [[damageDealtToTurrets]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="damageSelfMitigated|Damage Self Mitigated|Damage Self Mitigated|number">Damage Self Mitigated: [[damageSelfMitigated]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="magicDamageDealt|Magic Damage Dealt|Magic Damage Dealt|number">Magic Damage Dealt: [[magicDamageDealt]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="magicDamageDealtToChampions|Magic Damage Dealt To Champions|Magic Damage Dealt To Champions|number">Magic Damage Dealt To Champions: [[magicDamageDealtToChampions]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="magicalDamageTaken|Magical Damage Taken|Magical Damage Taken|number">Magical Damage Taken: [[magicalDamageTaken]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="physicalDamageDealt|Physical Damage Dealt|Physical Damage Dealt|number">Physical Damage Dealt: [[physicalDamageDealt]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="physicalDamageDealtToChampions|Physical Damage Dealt To Champions|Physical Damage Dealt To Champions|number">Physical Damage Dealt To Champions: [[physicalDamageDealtToChampions]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="physicalDamageTaken|Physical Damage Taken|Physical Damage Taken|number">Physical Damage Taken: [[physicalDamageTaken]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalDamageDealt|Total Damage Dealt|Total Damage Dealt|number">Total Damage Dealt: [[totalDamageDealt]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalDamageDealtToChampions|Total Damage Dealt To Champions|Total Damage Dealt To Champions|number">Total Damage Dealt To Champions: [[totalDamageDealtToChampions]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="trueDamageDealt|True Damage Dealt|True Damage Dealt|number">True Damage Dealt: [[trueDamageDealt]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="trueDamageDealtToChampions|True Damage Dealt To Champions|True Damage Dealt To Champions|number">True Damage Dealt To Champions: [[trueDamageDealtToChampions]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="trueDamageTaken|True Damage Taken|True Damage Taken|number">True Damage Taken: [[trueDamageTaken]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalDamageTaken|Total Damage Taken|Total Damage Taken|number">Total Damage Taken: [[totalDamageTaken]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalHeal|Total Heal|Total Heal|number">Total Heal: [[totalHeal]]</paper-item>
+            <paper-item class="custom-hover">First Blood Assist: [[firstBloodAssist]]</paper-item>
+            <paper-item class="custom-hover">First Blood Kill: [[firstBloodKill]]</paper-item>
+            <paper-item class="custom-hover">First Inhibitor Assist: [[firstInhibitorAssist]]</paper-item>
+            <paper-item class="custom-hover">First Inhibitor Kill: [[firstInhibitorKill]]</paper-item>
+            <paper-item class="custom-hover">First Tower Assist: [[firstTowerAssist]]</paper-item>
+            <paper-item class="custom-hover">First Tower Kill: [[firstTowerKill]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="largestCriticalStrike|Largest Critical Strike|Largest Critical Strike|number">Largest Critical Strike: [[largestCriticalStrike]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="longestTimeSpentLiving|Longest Time Spent Living|Longest Time Spent Living|number">Longest Time Spent Living: [[longestTimeSpentLiving]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="neutralMinionsKilled|Neutral Minions Killed|Neutral Minions Killed|number">Neutral Minions Killed: [[neutralMinionsKilled]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="neutralMinionsKilledEnemyJungle|Neutral Minions Killed Enemy Jungle|Neutral Minions Killed Enemy Jungle|number">Neutral Minions Killed Enemy Jungle: [[neutralMinionsKilledEnemyJungle]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="neutralMinionsKilledTeamJungle|Neutral Minions Killed Team Jungle|Neutral Minions Killed Team Jungle|number">Neutral Minions Killed Team Jungle: [[neutralMinionsKilledTeamJungle]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="sightWardsBoughtInGame|Sight Wards Bought In Game|Sight Wards Bought In Game|number">Sight Wards Bought In Game: [[sightWardsBoughtInGame]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="timeCCingOthers|Time CC'ing Others|Time CC'ing Others|number">Time CC'ing Others: [[timeCCingOthers]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalTimeCrowdControlDealt|Total Time Crowd Control Dealt|Total Time Crowd Control Dealt|number">Total Time Crowd Control Dealt: [[totalTimeCrowdControlDealt]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="totalUnitsHealed|Total Units Healed|Assists|Total Units Healed">Total Units Healed: [[totalUnitsHealed]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="visionWardsBoughtInGame|Vision Wards Bought In Game|Vision Wards Bought In Game|number">Vision Wards Bought In Game: [[visionWardsBoughtInGame]]</paper-item>
+            <paper-item class="custom-hover" on-tap="_showChart" data-item$="wardsPlaced|Wards Placed|Wards Placed|number">Wards Placed: [[wardsPlaced]]</paper-item>
           </paper-dialog-scrollable>
           <div class="buttons">
             <paper-button dialog-dismiss class="custom-hover">Cancel</paper-button>
@@ -553,44 +553,42 @@ class LeagueOfLegendsUiApp extends PolymerElement {
   }
 
   toggleCharts(item){
-    this.chartShown = !this.chartShown;
-    if(this.chartShown){
-      this.drawMultSeries(item);
-    }
+    this.drawMultSeries(item);
     this.$.chart.toggle();
   }
 
   drawMultSeries(item) {
     console.log(item);
     let values = item.split('|');
+    let chartArray = [];
+    chartArray.push(['', '', { role: 'style' } ]);
+    for(var i = 0; i < this.participants.length; i++){
+      let stat = this.participants[i].stats[values[0]];
+      let partId = this.participants[i].participantId;
+      let playerName = '';
+      let searchedPlayer = false;
+      for(var j = 0; j < this.participantIdentities.length; j++){
+        if(partId === this.participantIdentities[j].participantId){
+          playerName = this.participantIdentities[j].player.summonerName;
+          if(this.participantId === this.participantIdentities[j].participantId){
+            searchedPlayer = true;
+          }
+          break;
+        }
+      }
+      chartArray.push([playerName, stat, searchedPlayer ? 'color: blue' : 'color: lightblue']);
+    }
     this.charttitle = values[1];
-    var data = google.visualization.arrayToDataTable([
-      ['', '', { role: 'style' } ],
-      ['Doublelift', 18, 'color: blue'], 
-      ['Doublelift2', 6, 'color: lightblue'], 
-      ['Doublelift3', 12, 'color: lightblue'], 
-      ['Doublelift4', 13, 'color: lightblue'], 
-      ['Doublelift4', 8, 'color: lightblue'], 
-      ['Doublelift4', 8, 'color: lightblue'], 
-      ['Doublelift4', 10, 'color: lightblue'], 
-      ['Doublelift4', 14, 'color: lightblue'], 
-      ['Doublelift4', 16, 'color: lightblue']
-    ]);
+    var data = google.visualization.arrayToDataTable(chartArray);
     var options = {
-      //title: values[1],
       chartArea: {width: '50%'},
-      // colors: ['#b0120a', '#ffab91'],
       colors: ['', ''],
       hAxis: {
         title: values[2],
         minValue: 0
-      }/*,
-      vAxis: {
-        title: values[3]
-      }*/
+      }
     };
     var chart = new google.visualization.BarChart(this.$.chartscrollable);
-    // var chart = new google.visualization.BarChart(this.$.chart);
     chart.draw(data, options);
   }
 
@@ -684,12 +682,6 @@ class LeagueOfLegendsUiApp extends PolymerElement {
           this.wardsPlaced = response.participants[j].stats.wardsPlaced;    
         }
       }
-
-      //TODO: Find in response.participantIdentities by player.summonerName
-      // use participantIdentities to get the participantId
-      
-      // use participantId to look at participants to get individual stats and teamId
-      // use teamId to find from teams to get team stats
     });
   }
 

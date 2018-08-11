@@ -36,3 +36,5 @@ Your application is already set up to be tested via [web-component-tester](https
 
 polymer build
 aws s3 sync ./build/es6-unbundled s3://apis-for-all/games/leagueoflegends --acl public-read
+
+why does doublelitf throw an error?
