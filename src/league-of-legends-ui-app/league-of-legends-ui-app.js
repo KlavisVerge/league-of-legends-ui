@@ -544,7 +544,6 @@ class LeagueOfLegendsUiApp extends PolymerElement {
 
   _showChart(event){
     let item = event.target.dataset.item$;
-    console.log(item + ' ' + this.participantId);
     this.toggleCharts(item);
   }
 
@@ -558,7 +557,6 @@ class LeagueOfLegendsUiApp extends PolymerElement {
   }
 
   drawMultSeries(item) {
-    console.log(item);
     let values = item.split('|');
     let chartArray = [];
     chartArray.push(['', '', { role: 'style' } ]);
