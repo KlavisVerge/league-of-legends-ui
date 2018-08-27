@@ -268,6 +268,7 @@ class LeagueOfLegendsUiApp extends PolymerElement {
           <reddit-ui game="leagueoflegends" displayname="League of Legends"></reddit-ui>
         </div>
         <paper-dialog id="dialog">
+          <paper-spinner id="dialogSpinner" active=[[active]]></paper-spinner>
           <h2>Match Stats</h2>
           <p>Click on a stat for a graph</p>
           <paper-dialog-scrollable>
@@ -592,6 +593,8 @@ class LeagueOfLegendsUiApp extends PolymerElement {
 
   _invokeApiMatchStats(event) {
     this.toggleDialog();
+    this.$.dialogSpinner.active = true;
+    this.$.dialogSpinner.classList.add('active'); // TODO: Here
     let item = event.target.dataset.item;
     item = JSON.parse(item);
     var url = 'https://xupmhdl2g5.execute-api.us-east-1.amazonaws.com/api/league-of-legends-match-api?region=' + item.platformId.toLowerCase() + '&gameId=' + item.gameId;
@@ -607,12 +610,16 @@ class LeagueOfLegendsUiApp extends PolymerElement {
     .catch(error => {
       console.error('Error:', error);
       err = true;
+      this.$.dialogSpinner.active = false;
+      this.$.dialogSpinner.classList.remove('active');// TODO: Here
     })
     .then(response => {
       if(err){
         return;
       }
       response = JSON.parse(response);
+      this.$.dialogSpinner.active = false;
+      this.$.dialogSpinner.classList.remove('active');// TODO: Here
       let participantId = 0;
       for(var i = 0; i < response.participantIdentities.length; i++){
         if(response.participantIdentities[i].player.summonerName.toLowerCase() === this.name.toLowerCase()){
