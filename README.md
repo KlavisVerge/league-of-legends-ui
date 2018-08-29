@@ -35,4 +35,4 @@ Your application is already set up to be tested via [web-component-tester](https
 ## Deploy
 
 polymer build
-aws s3 sync ./build/es6-unbundled s3://apis-for-all/games/leagueoflegends --acl public-read
+aws s3 sync ./build/es6-unbundled s3://statsplash/games/leagueoflegends --acl public-read
