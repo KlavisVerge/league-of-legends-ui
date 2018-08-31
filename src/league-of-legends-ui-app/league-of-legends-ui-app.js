@@ -177,7 +177,7 @@ class LeagueOfLegendsUiApp extends PolymerElement {
         </div>
         <div class="search-col">
           <paper-card>
-            <paper-item>Platform</paper-item>
+            <paper-item>Region</paper-item>
             <paper-radio-group id="region" label="Region" selected="na">
               <paper-radio-button name="na">NA</paper-radio-button>
               <paper-radio-button name="kr">KR</paper-radio-button>
